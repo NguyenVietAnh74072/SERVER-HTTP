@@ -8,7 +8,3 @@ app.get("/",function(req,res)
   //  res.send("<front color = red>helo world</front>" ); // send gui cau lenh
   res.sendFile("../baitap/wedservice.html");
 })
-
-var a=4;
-var c=3;
-console.log("c");
